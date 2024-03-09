@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  padding: 1vw;
+}
+
+nav {
+  width: 100vw;
+  text-align: center;
+}
+
+nav h1 {
+  font-size: 5vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  background-image: url("https://www.imagensempng.com.br/wp-content/uploads/2021/02/41.png");
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0.25px rgb(255, 255, 255);
+  background-clip: text;
+  color: transparent;
+  margin: 1vw;
+}
+
+.cont {
+  width: 98vw;
+  height: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px #696969;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  margin: 1vh;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.conteudo img {
+  width: 60vw;
+  margin: 5px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.conteudo p {
+  font-size: 1.4vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  -webkit-text-stroke: 0.5px rgb(45, 45, 45);
+  margin: 5px;
+}
+
+.conteudo img:hover {
+  box-shadow: 0px 0px 5px 5px #690000;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 98vw;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+}
+
+footer div {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+footer div p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 2px;
+  font-size: 1.75vw;
+  -webkit-text-stroke: 0.75px rgb(83, 0, 0);
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    padding: 1vh;
+  }
+  nav h1 {
+    font-size: 7.5vh;
+    margin: 1vh;
+    -webkit-text-stroke: 0.25px rgb(255, 255, 255);
+  }
+  .cont{
+    padding: 2vw;
+    width: 94vw;
+  }
+  .conteudo {
+    flex-direction: column;
+  }
+  .conteudo p {
+    font-size: 2.5vh;
+    width: 80vw;
+  }
+  .conteudo img {
+    box-shadow: 0px 0px 5px 5px #690000;
+    height: 40vh;
+    width: 80vw;
+  }
+  footer {
+    margin-top: 1vh;
+  }
+  footer div p {
+    font-size: 3vh;
+  }
+}
