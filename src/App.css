@@ -55,7 +55,6 @@ nav h1 {
 .conteudo p {
   font-size: 1.4vw;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  -webkit-text-stroke: 0.5px rgb(45, 45, 45);
   margin: 5px;
 }
 
