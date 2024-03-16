@@ -46,7 +46,7 @@ function App() {
         </div>
         <div>
           <p></p>
-          <p>Autodefesa-Submissão-Altruísmo</p>
+          <p>Autodefesa-Disciplina-Altruísmo</p>
           <p></p>
         </div>
       </footer>
